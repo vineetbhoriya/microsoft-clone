@@ -142,7 +142,43 @@ function App() {
         </div>
       </div>
       {/* end icons */}
-      
+      {/* cards */}
+      <div className="flex md:space-x-4 p-5 md:justify-center md:flex-row flex-col ">
+        <div className="flex flex-col w-auto items-start space-y-6 md:w-1/4">
+          <img src="/src/assets/images/gldn-XGP-Game-Pass-Ultimate-Characters-06102010-1.webp" alt="image" />
+          <div className="flex flex-col space-y-3">
+            <h1 className="text-3xl">Xbox Game Pass Ultimate</h1>
+            <p>Xbox Live Gold and hundreds of high-quality console and PC games. Play together with friends and discover your next favourite game.</p>
+          </div>
+          <a href="" className="text-blue-700">Join Now</a>
+        </div>
+        <div className="flex flex-col  items-start space-y-6 w-auto md:w-1/4">
+          <img src="/src/assets/images/Content-Card-Minecraft-Legends-2023.webp" alt="image" />
+          <div className="flex flex-col space-y-3">
+            <h1 className="text-3xl">Unite the Overworld in Minecraft Legends</h1>
+            <p>Explore lush biomes, make alliances with new friends and familiar mobs, then face the piglins in epic battles. But be warned—they always fight back.</p>
+          </div>
+          <a href="" className="text-blue-700">Join Now</a>
+        </div>
+        <div className="flex flex-col  items-start space-y-6 w-auto md:w-1/4">
+          <img src="/src/assets/images/Content-Card-Surface-Laptop-5-M1-Platinum-01-1.webp" alt="image" />
+          <div className="flex flex-col space-y-3">
+            <h1 className="text-3xl">Surface Laptop 5</h1>
+            <p>Sophisticated style and multitasking speed powered by 12th Gen Intel® Core, with Windows 11.</p>
+          </div>
+          <a href="" className="text-blue-700">Join Now</a>
+        </div>
+        <div className="flex flex-col  items-start space-y-6 w-auto md:w-1/4">
+          <img src="/src/assets/images/Content-Card-Bing-AI-Open-Preview.webp" alt="image" />
+          <div className="flex flex-col space-y-3">
+            <h1 className="text-3xl">Announcing the next wave of AI innovation</h1>
+            <p>The new Microsoft Bing and Edge will soon feature more visual search responses, chat history, and persistent chat within Edge. We’re also adding actions to help people complete tasks.</p>
+          </div>
+          <a href="" className="text-blue-700">Join Now</a>
+        </div>
+      </div>
+      {/*end cards */}
+
     </>
   );
 }
